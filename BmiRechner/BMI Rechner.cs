@@ -1,9 +1,8 @@
-﻿using System.Runtime.Intrinsics.X86;
-
+﻿
 System.Console.WriteLine("Sag mir dein Gewicht: ");
 double userGewicht = Convert.ToDouble(Console.ReadLine());
 
-System.Console.WriteLine("sag mir deine Größe");
+System.Console.WriteLine("sag mir deine Größe: ");
 double userGröße = Convert.ToDouble(Console.ReadLine());
 
 double BerechneBMI(double gewicht, double größe)
