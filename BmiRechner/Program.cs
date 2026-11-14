@@ -1,10 +1,10 @@
 ﻿using System.Runtime.Intrinsics.X86;
 
 System.Console.WriteLine("Sag mir dein Gewicht: ");
-double user_gewicht = Convert.ToDouble(Console.ReadLine());
+double userGewicht = Convert.ToDouble(Console.ReadLine());
 
 System.Console.WriteLine("sag mir deine Größe");
-double user_größe = Convert.ToDouble(Console.ReadLine());
+double userGröße = Convert.ToDouble(Console.ReadLine());
 
 double BerechneBMI(double gewicht, double größe)
 {
@@ -13,6 +13,6 @@ double BerechneBMI(double gewicht, double größe)
     return bmi;
 }
 
-double bmi_final = BerechneBMI(user_gewicht, user_größe);
+double bmiFinal = BerechneBMI(userGewicht, userGröße);
 
-Console.WriteLine("Dein BMI ist: " + bmi_final);
+Console.WriteLine("Dein BMI ist: " + bmiFinal);
